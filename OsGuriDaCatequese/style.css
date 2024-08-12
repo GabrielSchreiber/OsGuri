@@ -21,12 +21,31 @@ body{
     border: radius 25px;
     padding: 2em; 
     color: var(--cor-principal);
-    display: block; 
+    display: block;
+    margin-top: 20px; 
+    text-decoration: none;
 }
+.botao-secundario{
+    background-color: transparent;
+    border: 2px solid var(--cor-principal);
+    margin-top: 20px;
+}
+.divisoria{
+    margin: 60px;
+}
+
 .container{
     height: 100vh;
     display: grid;
     grid-template-columns: 50% 50%;
-    background background-repeat:no-repeat ;
+    background-repeat:no-repeat ;
     background-size: contain;
+}
+
+.nome{
+    font-size: 30px;
+    font-weight: 700;
+}
+.principal{
+    text-align: center;
 }
