@@ -5,12 +5,12 @@
 
 :root{
     --cor-principal:#ffffff;
-    --cor-secundaria:#c0c0c0;
+    --cor-secundaria:#000000;
     --cor-do-botao:#167bf7;
     --cor-de-fundo:#00030c;
 }
 
-body{
+.principal{
     background-image: url(img/Background.png);
     color: var(--cor-principal);
 }
@@ -34,6 +34,10 @@ body{
     margin: 60px;
 }
 
+
+body{
+    background-color: #000000;
+}
 .container{
     height: 100vh;
     display: grid;
@@ -49,3 +53,26 @@ body{
 .principal{
     text-align: center;
 }
+
+
+.secundaria.imagem{
+    width: 100%;
+}
+
+.secundario{
+    align-items: center;
+    margin:0 8em;
+}
+
+.descricao-titulo{
+    font-weight: 700;
+    font-size: 40px;
+    color: white;
+    margin-bottom: 0,1em;
+}
+
+.descricao-texto{
+    color: white
+
+}
+
