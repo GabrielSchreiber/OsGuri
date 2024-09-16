@@ -39,9 +39,9 @@ body{
     background-color: #000000;
 }
 .container{
-    height: 100vh;
+    height: 140vh;
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 50% 40%;
     background-repeat:no-repeat ;
     background-size: contain;
 }
@@ -64,6 +64,11 @@ body{
     margin:0 8em;
 }
 
+.secundario2{
+    align-items: center;
+    margin:0 1%;
+}
+
 .descricao-titulo{
     font-weight: 700;
     font-size: 40px;
@@ -71,8 +76,41 @@ body{
     margin-bottom: 0,1em;
 }
 
+.descricao-texto2{
+    font-weight: 700;
+    font-size: 25px;
+    color: white;
+    margin-bottom: 0,1em;
+    margin-left: 220px;
+}
+
 .descricao-texto{
     color: white
 
 }
 
+
+.dispositivos-lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+
+.dispositivos{
+    text-align: center;
+}
+
+
+.lista-item{
+    color:var(--cor-principal)
+}
+
+
+.dispositivos-titulo{
+    color: #ffffff;
+}
+
+.dispositivos-lista{
+    margin: 6em;
+}
